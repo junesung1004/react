@@ -23,6 +23,7 @@ export default function Member() {
         },
         [check]
       );
+
     //.catch 란 fetch로 데이터를 받아오지 못했을때(오류 처리)
   });
 
