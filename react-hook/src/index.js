@@ -17,6 +17,11 @@ import EventEx from "./event/EventEx";
 import Context from "./context/Context";
 import ColorMode from "./context/ColorMode";
 import DarkMode from "./context/DarkMode";
+import Children from "./children/Children";
+import Page from "./children/Page";
+import Ref from "./ref/Ref";
+import Game from "./ref/Game";
+import Reducer from "./reducer/Reducer";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -34,7 +39,11 @@ root.render(
     {/* <EventEx /> */}
     {/* <Context /> */}
     {/* <ColorMode /> */}
-    <DarkMode />
+    {/* <DarkMode /> */}
+    {/* <Page /> */}
+    {/* <Ref /> */}
+    {/* <Game /> */}
+    <Reducer />
   </>
 
   //</React.StrictMode>
