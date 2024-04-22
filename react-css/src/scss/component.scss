@@ -1,0 +1,12 @@
+$font30: 30px;
+$font50: 50px;
+$colorCoral: coral;
+$colorOrange: orange;
+$colorPink: pink;
+$colorLightcyan: lightcyan;
+
+@mixin square($size) {
+  $calc: 100px * $size;
+  width: $calc;
+  height: $calc;
+}

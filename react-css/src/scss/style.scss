@@ -1,0 +1,30 @@
+@import "./component.scss";
+
+.container {
+  background-color: gray;
+  .box {
+    background-color: coral;
+    opacity: 0.7;
+    transition: 300ms;
+    @include square(1);
+    &.orange {
+      background-color: $colorOrange;
+      @include square(2);
+    }
+    &.pink {
+      background-color: $colorPink;
+      @include square(4);
+    }
+    &.lightcyan {
+      background-color: $colorLightcyan;
+      @include square(6);
+    }
+    &.coral {
+      background-color: $colorCoral;
+      @include square(2);
+    }
+    :hover {
+      cursor: pointer;
+    }
+  }
+}
